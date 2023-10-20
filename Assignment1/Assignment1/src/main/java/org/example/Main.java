@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public final class Main {
-    private static final String AWS_ACCESS_KEY = "ASIARPPBFXJT2TKJIDZ5";
-    private static final String AWS_SECRET_KEY = "6PNsFbfPt/SRgxxSnhW+NdNZum3u8gKAN1LsXbYB";
-    private static final String AWS_SESSION_TOKEN = "FwoGZXIvYXdzEBUaDEi1Yr4e5YEemc3GeSLAAcTJt6U2LLF4PrfwqFP9S8554AAPWCrYd9xATXCgsqhN8zS544I2PXkvbmR0WsWblpESVnfbI4PgbL01rkTbcXvPRDPBraxN8lLDwzvJrBNAzEGmVU/7XUmuJIIbpTZ/9ooQtThvQRZVQlG/u+JQP3c2r9LsfMkNbnH0UoAppFg0rMCVQjO4X4MH6CldF7FivtRWo6vvd17YgFKZR3gmctM5b+Ap8RQ4HbBi4sIzObrRvjgYS47Jz+mA1kGdY8UQtCjvjP6jBjItdbptaXUoAjAlmIMXz6ryZe54SvuU25/e7LflvoO8w/mDrW6DXl2xCMvQhCgp";
+    private static final String AWS_ACCESS_KEY = "YOUR_AWS_ACCESS_KEY";
+    private static final String AWS_SECRET_KEY = "YOUR_AWS_SECRET_KEY";
+    private static final String AWS_SESSION_TOKEN = "YOUR_AWS_SECRET_TOKEN";
     private static final BasicSessionCredentials AWS_CREDENTIALS = new BasicSessionCredentials(AWS_ACCESS_KEY, AWS_SECRET_KEY, AWS_SESSION_TOKEN);
 
     private final AmazonS3 amazonS3Client;
